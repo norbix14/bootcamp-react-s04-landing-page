@@ -1,0 +1,24 @@
+.extensions {
+  padding: 30px;
+}
+
+.extensions-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.extension-box {
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 4px 4px 20px #ccc;
+  border-radius: 10px;
+}

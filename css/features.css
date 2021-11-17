@@ -1,0 +1,19 @@
+.featuresLi > li {
+    display: inline-block;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.features-paragraph {
+    margin: 0 8rem;
+}
+
+.activeFeatures {
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rightFeatures {
+    padding: 3rem;
+}

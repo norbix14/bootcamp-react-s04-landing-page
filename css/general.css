@@ -1,0 +1,176 @@
+.bg-soft-red {
+  background-color: var(--soft-red);
+}
+
+.color-soft-red {
+  color: var(--soft-red);
+}
+
+.bg-soft-blue {
+  background-color: var(--soft-blue);
+}
+
+.color-soft-blue {
+  color: var(--soft-blue);
+}
+
+.bg-grayish-blue {
+  background-color: var(--grayish-blue);
+}
+
+.color-grayish-blue {
+  color: var(--grayish-blue);
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+
+.color-dark-blue {
+  color: var(--dark-blue);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.active {
+  border-bottom: 4px solid var(--soft-red);
+}
+
+.btn-login {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-login:hover {
+  color: var(--soft-red);
+  border: 1px solid var(--soft-red);
+}
+
+.btn-get-chrome {
+  background-color: var(--soft-blue);
+  color: #fff;
+}
+
+.btn-get-chrome:hover {
+  color: var(--soft-blue);
+  border: 1px solid var(--soft-blue);
+}
+
+.btn-get-firefox {
+  background-color: #eee;
+}
+
+.btn-get-firefox:hover {
+  border: 1px solid #111;
+}
+
+.btn-extension {
+  background-color: var(--soft-blue);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.btn-extension:hover {
+  color: var(--soft-blue);
+  border: 1px solid var(--soft-blue);
+}
+
+.btn-more-info {
+  color: #fff;
+  background-color: var(--soft-blue);
+}
+
+.btn-more-info:hover {
+  color: #111;
+  border: 1px solid #111;
+}
+
+.btn-contact {
+  background-color: var(--soft-red);
+  color: #fff;
+}
+
+.btn-contact:hover {
+  color: var(--soft-red);
+  border: 1px solid var(--soft-red);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-light-black {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  color: var(--soft-red) !important;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1, h2 {
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

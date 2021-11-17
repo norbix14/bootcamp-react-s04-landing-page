@@ -1,0 +1,22 @@
+.bookMark {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+}
+
+.text-al-cen {
+    text-align: center;
+}
+
+.bookMarkleft {
+    padding: 2rem;
+}
+
+.bookMarkRight > img {
+    height: 100%
+}
+
+.bookMarkRight {
+    width: 90%;
+}

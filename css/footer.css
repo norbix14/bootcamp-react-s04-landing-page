@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footr {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footl {
+  display: flex;
+  align-items: center;
+}
+
+.footl > a {
+  color: #fff;
+}
+
+.footl > * {
+  margin: 2rem 1rem 2rem 2rem;
+}
+
+.footr > * {
+  margin: 0 0 0 2rem;
+}
+
+.footr {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+}
